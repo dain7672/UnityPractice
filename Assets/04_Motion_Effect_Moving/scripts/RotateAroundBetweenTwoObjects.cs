@@ -22,7 +22,6 @@ public class RotateAroundBetweenTwoObjects : MonoBehaviour
         position = Vector3.Lerp(object1.transform.position, object2.transform.position, 0.5f);
         vector =  object1.transform.position - object2.transform.position;
 
-        Debug.Log(vector);
         transform.RotateAround(position, vector, 4);
 
     }
