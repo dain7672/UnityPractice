@@ -14,7 +14,6 @@ public class ScaleBySlider : MonoBehaviour
     void Update()
     {
         float scale = PlayerPrefs.GetFloat("scale");
-        Debug.Log("scale: " + scale);
         transform.localScale = new Vector3(1+scale, 1+scale, 1+scale);
     }
 }

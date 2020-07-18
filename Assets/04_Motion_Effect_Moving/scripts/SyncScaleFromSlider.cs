@@ -14,5 +14,6 @@ public class SyncScaleFromSlider : MonoBehaviour
     public void syncSliderValue()
     {
         PlayerPrefs.SetFloat("scale", slider.value);
+        Debug.Log("scale: " + slider.value);
     }
 }
