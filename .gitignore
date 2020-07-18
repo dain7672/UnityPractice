@@ -61,3 +61,7 @@ crashlytics-build.properties
 Assets/Kevin Iglesias.meta
 Assets/Kevin Iglesias/
 
+Assets/VSCode/
+Assets/VScode.meta
+
+.vscode/
