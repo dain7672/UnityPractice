@@ -44,6 +44,7 @@
      <Compile Include="Assets\01_Motion\ChildObjectCheckScript.cs" />
      <Compile Include="Assets\01_Motion\MotionAnimationRootScript.cs" />
      <Compile Include="Assets\01_Motion\MovingParticles.cs" />
+     <Compile Include="Assets\04_Motion_Effect_Moving\scripts\EffectVisibleByToggle.cs" />
      <Compile Include="Assets\04_Motion_Effect_Moving\scripts\MoveBetweenTwoObjects.cs" />
      <Compile Include="Assets\04_Motion_Effect_Moving\scripts\RotateAround.cs" />
      <Compile Include="Assets\04_Motion_Effect_Moving\scripts\RotateAroundBetweenTwoObjects.cs" />

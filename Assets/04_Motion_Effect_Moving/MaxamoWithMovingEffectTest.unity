@@ -17532,6 +17532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461506272}
   - component: {fileID: 1461506273}
+  - component: {fileID: 1461506274}
   m_Layer: 0
   m_Name: DummySkeleton
   m_TagString: Untagged
@@ -17564,6 +17565,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a3c0f8fcd84b4d5aaf8a2c61e996679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1461506274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461506271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df88e91b2b16f4d038ef9510e88fbf32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1464353977 stripped
