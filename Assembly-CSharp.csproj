@@ -55,6 +55,8 @@
      <Compile Include="Assets\04_Motion_Effect_Moving\scripts\ToggleElements.cs" />
      <Compile Include="Assets\05_Trail_Renderer\Rotate.cs" />
      <Compile Include="Assets\06_Particle_System\RotateParticleSystem.cs" />
+     <None Include="Assets\FFmpegOut\Resources\Preprocess.shader" />
+     <None Include="Assets\FFmpegOut\Resources\Blitter.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -630,6 +632,16 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{2d625adf-f80b-58d8-ee1e-cbb5ce2c3566}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="FFmpegOut.Editor.csproj">
+      <Project>{af3ec2ee-9e3f-f14a-c66e-159cf8b28cbc}</Project>
+      <Name>FFmpegOut.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="FFmpegOut.csproj">
+      <Project>{5f1b31e4-a5bb-c6bb-cbfa-7317e517ea94}</Project>
+      <Name>FFmpegOut</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

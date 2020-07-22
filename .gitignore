@@ -60,8 +60,11 @@ crashlytics-build.properties
 
 Assets/Kevin Iglesias.meta
 Assets/Kevin Iglesias/
-
 Assets/VSCode/
 Assets/VScode.meta
+Assets/FFmpegOut.meta
+Assets/FFmpegOut/
+Assets/StreamingAssets.meta
+Assets/StreamingAssets/
 
 .vscode/
