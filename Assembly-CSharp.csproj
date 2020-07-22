@@ -621,6 +621,12 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
