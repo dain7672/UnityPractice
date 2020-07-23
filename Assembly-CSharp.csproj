@@ -55,7 +55,15 @@
      <Compile Include="Assets\04_Motion_Effect_Moving\scripts\ToggleElements.cs" />
      <Compile Include="Assets\05_Trail_Renderer\Rotate.cs" />
      <Compile Include="Assets\06_Particle_System\RotateParticleSystem.cs" />
+     <Compile Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\TransparencyCaptureToFileCustom.cs" />
+     <Compile Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\example\zzTransparencyCaptureExampleCustom.cs" />
+     <Compile Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\zzTransparencyCaptureCustom.cs" />
+     <Compile Include="Assets\TransparencyCapture\TransparencyCaptureToFile.cs" />
+     <Compile Include="Assets\TransparencyCapture\example\zzTransparencyCaptureExample.cs" />
+     <Compile Include="Assets\TransparencyCapture\zzTransparencyCapture.cs" />
+     <None Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\readme.txt" />
      <None Include="Assets\FFmpegOut\Resources\Preprocess.shader" />
+     <None Include="Assets\TransparencyCapture\readme.txt" />
      <None Include="Assets\FFmpegOut\Resources\Blitter.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.12f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -600,8 +608,14 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -620,12 +634,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
