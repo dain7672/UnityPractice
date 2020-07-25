@@ -55,6 +55,7 @@
      <Compile Include="Assets\04_Motion_Effect_Moving\scripts\ToggleElements.cs" />
      <Compile Include="Assets\05_Trail_Renderer\Rotate.cs" />
      <Compile Include="Assets\06_Particle_System\RotateParticleSystem.cs" />
+     <Compile Include="Assets\09_Scene_Capture\SprialMoving.cs" />
      <Compile Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\TransparencyCaptureToFileCustom.cs" />
      <Compile Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\example\zzTransparencyCaptureExampleCustom.cs" />
      <Compile Include="Assets\09_Scene_Capture\TransparencyCapture_Custom\zzTransparencyCaptureCustom.cs" />

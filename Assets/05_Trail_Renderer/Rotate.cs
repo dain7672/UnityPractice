@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-public class RotateInPlace : MonoBehaviour
+public class Rotate : MonoBehaviour
 {
     public bool moveUpward = false;
     public float movingSpeed = 6f;
