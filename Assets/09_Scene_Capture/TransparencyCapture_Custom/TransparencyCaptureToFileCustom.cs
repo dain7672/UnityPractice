@@ -16,22 +16,24 @@ public class TransparencyCaptureToFileCustom:MonoBehaviour
     }
 
     void Start () {
-    //  StartCoroutine(CaptureEveryFrames());
+        StartCoroutine(CaptureEveryFrames());
     }
  
     IEnumerator CaptureEveryFrames () {
         while(true){ // This creates a never-ending loop
             yield return new WaitForEndOfFrame();
             zzTransparencyCaptureCustom.captureScreenshot("capture/capture" + currentFrame + ".png");
+            Debug.Log("frame: " + currentFrame);
             currentFrame++;
-            Debug.Log("hi: " + currentFrame);
+            yield return null;
         }
     }
     void Update()
     {
-        zzTransparencyCaptureCustom.captureScreenshot("capture/capture" + currentFrame + ".png");
         // if (Input.GetKeyDown(KeyCode.C))
         // StartCoroutine(capture(currentFrame));
-        currentFrame++;
+        // capture(currentFrame);
+        // yield return null;
+        // currentFrame++;
     }
 }
