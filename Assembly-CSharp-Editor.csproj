@@ -610,8 +610,14 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -631,11 +637,11 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Recorder">
-        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>/Users/kimdain/Workspace/UnityPractice/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

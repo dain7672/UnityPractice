@@ -35,10 +35,13 @@ public class SprialMoving : MonoBehaviour
             } else if (isAfter(object1.transform, transform)) {
                 movingDirection = false;
             }
+
+            //TODO: 방향 계산 변경 필요.
             transform.position = Vector3.MoveTowards(transform.position, transform.position + rotateVector * convertBoolToPositiveOrNegative(movingDirection), 0.002f);
         }
     }
 
+    //TODO: before 여부 계산 변경 필요
     private bool isBefore(Transform target, Transform current) {
         Vector3 forward = current.TransformDirection(Vector3.right);
         Vector3 toOther = target.position - current.position;
@@ -46,6 +49,7 @@ public class SprialMoving : MonoBehaviour
         return Vector3.Dot(forward, toOther) < 0;
     }
 
+    
     private bool isAfter(Transform target, Transform current) {
         return isBefore(current, target);
     }

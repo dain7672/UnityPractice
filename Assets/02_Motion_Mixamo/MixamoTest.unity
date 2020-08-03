@@ -1857,13 +1857,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850892326}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &856229552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4811,5 +4811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hip Hop Dancing (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4768292277062085571, guid: c03d615814c1b4a348960322165684a7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cc2c2c68a5ed44bfc8c113dd814b5b3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c03d615814c1b4a348960322165684a7, type: 3}
